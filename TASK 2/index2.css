@@ -1,0 +1,831 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+*{
+    margin: 0;
+    border: 0;  
+}
+
+header{
+    height: 75px;
+    width: 100%;
+    overflow: hidden;
+    background-color: rgb(29, 154, 250);
+}
+h1{
+    padding: 18px 16px;
+    float: left;
+    color: white;
+}
+
+h2{
+    margin-bottom: 12px;
+    text-align: left;
+    font-size: 20px;
+}
+h3{ 
+    margin-top: 50px;   
+    text-align: center;
+    font-size: 10px;
+}
+header input[type=text] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-top: 4px;
+    margin-left: -100px;
+    background: #ffffff;
+    justify-content: left;
+    border: none;
+    font-size: 17px;
+}
+.fC{
+    margin-top: 0%;
+    flex-flow: row wrap;  
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+body{
+    margin: 0;
+    gap: 0;
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #dddbdb;
+}
+li{
+    float: right;
+    display: block;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 25px 16px;
+    font-size: 17px;
+}
+
+.bar1 { 
+    margin: 17px auto;
+    width: 100%;
+    max-width: 150px;
+    height: 40px; 
+    text-align: center;
+}
+.box{
+    width: 36%;
+    margin-top: 15px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    height: 600px;
+    background: #fff;
+}
+
+.section1{
+    width: 19%;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 510px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    background: #fff;
+}
+
+.section2{
+    width: 19%;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    background: #fff;
+}
+
+.section3{
+    width: 19%;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    background: #fff;
+}
+
+.section4{
+    width: 19%;
+    height: 510px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+    background: #fff;
+}
+.section a{
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 60px;
+    float: right;
+}
+
+.section1 a{
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    float: right;
+}
+
+.section2 a{
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    float: right;
+}
+
+.section3 a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    float: right;
+}
+
+.section4 a{
+    display: inline-block;
+    color: #ffff;
+    background-color: rgb(29, 154, 250);
+    text-decoration: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    margin-top: 20px;
+    float: right;
+}
+.section p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.section1 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.section2 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.section3 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.section4 p{
+    font-size: 15px;
+    line-height:20px;
+    height: 90px;
+}
+
+.pic{
+    width: 450px;
+    height: 350px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    vertical-align: center;
+}
+
+.pic1{
+    width: 240px;
+    height: 300px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    vertical-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1282px) {
+    .section{
+        width: 35%;
+        height: 600px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+
+    .section1{
+        width: 20%;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        height: 510px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section2{
+        width: 20%;
+        height: 510px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section3{
+        width: 20%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section4{
+        width: 20%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+   
+    .fC{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row;  
+        flex-wrap: wrap;
+        justify-content: right;
+        margin-right: 175px;
+    }
+    
+    .pic{
+        width: 437px;
+        height: 350px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+    
+    .pic1{
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1281px) and (min-width: 1025px){
+    .section{
+        width: 43%;
+        height: 600px;
+        margin-top: 15px;
+        margin-right: 7px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+
+    .section1{
+        width: 22%;
+        height: 510px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section2{
+        width: 22%;
+        height: 510px;
+        margin-top: 15px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section3{
+        width: 22%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 599px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section4{
+        width: 22%;
+        height: 510px;
+        margin-top: -70px;
+        margin-left: 10px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+   
+    .fC{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .pic{
+        width: 437px;
+        height: 350px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+    
+    .pic1{
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) and (min-width: 801px){
+    .section{
+        width: 61%;
+        height: 600px;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+
+    .section1{
+        width: 26%;
+        height: 510px;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section2{
+        width: 26%;
+        height: 510px;
+        margin-top: -80px;
+        margin-left: 665px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section3{
+        width: 26%;
+        height: 510px;
+        margin-left: 665px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section4{
+        width: 26%;
+        height: 510px;
+        margin-left: 665px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+   
+    .fC{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row;  
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+    .pic{
+        width: 437px;
+        height: 350px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+    
+    .pic1{
+        width: 250px;
+        height: 300px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+
+    .menu{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) and (min-width: 481px){
+    .section{
+        width: 86.5%;
+        height: 810px;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+
+    .section1{
+        width: 40%;
+        height: 620px;
+        margin-top: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section2{
+        width: 40%;
+        height: 620px;
+        margin-left: 15px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section3{
+        width: 40%;
+        height: 620px;
+        margin-left: 15px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section4{
+        width: 40%;
+        height: 620px;
+        margin-left: 15px;
+        margin-right: 10px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+   
+    .fC{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: row;  
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 900px;
+    }
+    
+    .pic{
+        width: 780px;
+        height: 600px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+    
+    .pic1{
+        width: 360px;
+        height: 400px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+
+    header{
+        background-color: rgb(29, 154, 250);
+        height: 75px;
+        width: 900px;
+        overflow: hidden;
+    }
+
+    h3{ 
+        width: 900px;
+        padding-bottom: 50px;
+        margin-top: 50px;   
+        font-size: 10px;
+        text-align: center;
+    }
+
+    header input[type=text] {
+        display: none;
+    }
+    
+    
+    li{
+        display: none;
+    }
+
+    .menu{
+        float: right;
+        display: block;
+        padding: 25px 16px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+    }
+}
+
+@media screen and (max-width: 480px){
+    .section{
+        width: 90%;
+        height: 1200px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+
+    .section1{
+        width: 90%;
+        height: 1400px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section2{
+        width: 90%;
+        height: 1400px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section3{
+        width: 90%;
+        height: 1400px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+    
+    .section4{
+        width: 90%;
+        height: 1400px;
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 15px;
+        border-radius: 4px;
+        box-shadow: 0 5px 5px rgba(0,0,0,0.15);
+        background: #fff;
+    }
+   
+    .fC{
+        margin-top: 0%;
+        display: flex;
+        flex-flow: column;  
+        flex-wrap: wrap;
+        justify-content: center;
+        width: 920px;
+        margin-left: 10px;
+    }
+    
+    .pic{
+        width: 825px;
+        height: 750px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+    
+    .pic1{
+        width: 825px;
+        height: 1000px;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        vertical-align: center;
+    }
+
+    header{
+        background-color: rgb(29, 154, 250);
+        height: 75px;
+        width: 925px;
+        overflow: hidden;
+    }
+
+    h3{ 
+        margin-top: 50px;   
+        font-size: 10px;
+        text-align: center;
+        width: 950px;
+        padding-bottom: 50px;
+    }
+
+    header input[type=text] {
+        display: none;
+    }
+    
+    
+    li{
+        display: none;
+    }
+
+    .menu{
+        float: right;
+        display: block;
+        text-align: center;
+        padding: 25px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        color: rgb(255, 255, 255);
+    }
+
+    .section a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 15px;
+        font-size: 40px;
+        float: right;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+    }
+    
+    .section1 a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        font-size: 40px;
+        float: right;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+    }
+    
+    .section2 a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        font-size: 40px;
+        float: right;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+    }
+    
+    .section3 a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        font-size: 40px;
+        float: right;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+    }
+    
+    .section4 a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 15px;
+        border-radius: 4px;
+        margin-top: 30px;
+        font-size: 40px;
+        float: right;
+        color: #ffff;
+        background-color: rgb(29, 154, 250);
+    }
+    
+    .section p{
+        font-size: 40px;
+        line-height: 40px;
+        height: 220px;
+    }
+    
+    .section1 p{
+        font-size: 40px;
+        line-height: 40px;
+        height: 150px;
+    }
+    
+    .section2 p{
+        font-size: 40px;
+        line-height: 40px;
+        height: 150px;
+    }
+    
+    .section3 p{
+        font-size: 40px;
+        line-height: 40px;
+        height: 150px;
+    }
+    
+    .section4 p{
+        font-size: 40px;
+        line-height: 40px;
+        height: 150px;
+    }
+
+    h2{
+        text-align: left;
+        font-size: 60px;
+        margin-bottom: 12px;
+    }
+}
